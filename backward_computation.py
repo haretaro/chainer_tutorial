@@ -15,6 +15,4 @@ y.grad = np.ones((2,3), dtype=np.float32)
 y.backward()
 
 #勾配を表示.
-#dy = 2*x - 2 なので
-#[[0,0,0],[2,2,2]]になるはず
 print('grad',x.grad)
